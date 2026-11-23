@@ -1,0 +1,11 @@
+{
+  "name": "study-skills",
+  "owner": { "name": "claude-study-skills contributors" },
+  "plugins": [
+    {
+      "name": "study-skills",
+      "source": "./",
+      "description": "Study faster with Claude Code: ingest materials, map what is examined, step-by-step lessons, flashcards, acronyms, verified practice and a study plan."
+    }
+  ]
+}

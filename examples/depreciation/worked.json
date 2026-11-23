@@ -1,0 +1,28 @@
+{
+  "examples": [
+    {
+      "id": "depreciation-two-methods",
+      "tolerance": 0.01,
+      "inputs": {"cost": 12000, "residual": 2000, "life": 5, "rate": 0.2},
+      "steps": [
+        {"name": "sl_annual", "formula": "(cost - residual) / life", "result": 2000},
+        {"name": "sl_nbv_year2", "formula": "cost - 2 * sl_annual", "result": 8000},
+        {"name": "rb_year1", "formula": "rate * cost", "result": 2400},
+        {"name": "rb_nbv_year1", "formula": "cost - rb_year1", "result": 9600},
+        {"name": "rb_year2", "formula": "rate * rb_nbv_year1", "result": 1920}
+      ],
+      "checks": [
+        {"label": "reducing balance charges more in year 1", "left": "max(rb_year1, sl_annual)", "right": "rb_year1"},
+        {"label": "carrying amount never below residual after 2 years", "left": "max(sl_nbv_year2, residual)", "right": "sl_nbv_year2"}
+      ]
+    },
+    {
+      "id": "try-it-machine",
+      "inputs": {"cost": 30000, "residual": 6000, "life": 4},
+      "steps": [
+        {"name": "charge", "formula": "(cost - residual) / life", "result": 6000},
+        {"name": "nbv3", "formula": "cost - 3 * charge", "result": 12000}
+      ]
+    }
+  ]
+}

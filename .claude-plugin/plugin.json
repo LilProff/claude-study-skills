@@ -1,0 +1,8 @@
+{
+  "name": "study-skills",
+  "version": "0.1.0",
+  "description": "Study faster with Claude Code: ingest your materials, map what is examined, get step-by-step lessons, flashcards, acronyms, verified practice and a day-by-day plan.",
+  "author": { "name": "claude-study-skills contributors" },
+  "license": "MIT",
+  "keywords": ["study", "exam", "flashcards", "tutor", "spaced-repetition", "mnemonics", "revision", "learning"]
+}

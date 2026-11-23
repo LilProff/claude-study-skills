@@ -1,0 +1,8 @@
+#separator:tab
+#html:true
+#tags column:3
+What is depreciable amount?	Cost minus residual value.<br><small>lessons/depreciation.md</small>	depreciation definitions
+Straight-line formula?	(Cost - Residual value) / Useful life. The same charge every year.<br><small>lessons/depreciation.md</small>	depreciation formulas
+Reducing balance applies a fixed rate to the opening [...], so the charge falls each year.	Reducing balance applies a fixed rate to the opening carrying amount, so the charge falls each year.<br><small>lessons/depreciation.md</small>	depreciation formulas
+When does depreciation start?	When the asset is available for use, not when it is paid for.<br><small>lessons/depreciation.md</small>	depreciation rules
+Which asset is never depreciated?	Land (it has no limited useful life).<br><small>lessons/depreciation.md</small>	depreciation rules

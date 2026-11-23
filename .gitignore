@@ -1,0 +1,14 @@
+# A learner's own workspace and materials: never commit
+study/
+materials/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
