@@ -22,7 +22,7 @@ Built for people with **a lot of material to cover and a lot of work to practise
 
 **Manual (works everywhere):** copy the skills into your Claude Code skills folder.
 ```bash
-git clone https://github.com/OWNER/claude-study-skills
+git clone https://github.com/LilProff/claude-study-skills
 mkdir -p ~/.claude/skills
 cp -r claude-study-skills/skills/* ~/.claude/skills/
 ```
@@ -30,7 +30,7 @@ On Windows PowerShell: `Copy-Item -Recurse claude-study-skills\skills\* $HOME\.c
 
 **As a plugin (untested):**
 ```
-/plugin marketplace add OWNER/claude-study-skills
+/plugin marketplace add LilProff/claude-study-skills
 /plugin install study-skills@study-skills
 ```
 
